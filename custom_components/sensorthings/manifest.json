@@ -1,0 +1,16 @@
+{
+    "domain": "sensorthings",
+    "name": "SensorThings",
+    "version": "0.0.1",
+    "documentation": "https://github.com/GeoffWilliams/ha-sensorthings",
+    "issue_tracker": "https://github.com/GeoffWilliams/ha-sensorthings/issues",
+    "requirements": [],
+    "config_flow": true,
+    "dependencies": [
+        "http",
+        "lovelace"
+    ],
+    "iot_class": "cloud_polling",
+    "codeowners": ["@GeoffWilliams"],
+    "icon": "mdi:cloud-check"
+}

@@ -1,0 +1,27 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Configure SensorThings",
+        "description": "SensorThings server setup",
+        "data": {
+          "url": "Full SensorThings observation URL",
+          "username": "Username for BASIC authentication",
+          "password": "Password for BASIC authentication",
+          "interval": "Sensor polling interval (seconds)"
+        }
+      }
+    }
+  },
+  "options": {
+    "step": {
+        "init": {
+            "title": "Configure sensor mappings",
+            "description": "Map @iot_id(s) to Home Assistant entities",
+            "data": {
+                "sensor_map": "Sensor Mappings"
+            }
+        }
+    }
+  }
+}
